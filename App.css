@@ -1,0 +1,100 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.task-item {
+  background-color: #e0e7ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: #c7d2fe;
+}
+
+.task-actions button {
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-actions button:hover {
+  background-color: #1e40af;
+}
+
+.edit-section {
+  display: flex;
+  margin-left: 10px;
+}
+
+.edit-section input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #d1d5db;
+}
+
+.edit-section button {
+  background-color: #34d399;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-section button:hover {
+  background-color: #059669;
+}
+h1 {
+  text-align: center;
+  font-size: 54px;
+}
+
+.task-item-checked {
+  text-decoration: line-through;
+  color: #6b7280;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.task-item-checked:hover {
+  background-color: #c7d2fe;
+}
